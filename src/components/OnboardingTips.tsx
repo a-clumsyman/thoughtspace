@@ -28,7 +28,7 @@ const OnboardingTips: React.FC<OnboardingTipsProps> = ({ isVisible, onDismiss })
     {
       icon: BookOpen,
       title: "Discover patterns",
-      description: "Check the 'Topics' tab to see how your thoughts connect. You'll be surprised by the patterns you'll discover!",
+      description: "Check the 'Mind Map' tab to see how your thoughts connect. You'll be surprised by the patterns you'll discover!",
       color: "text-yellow-600 dark:text-yellow-400",
       bgColor: "bg-yellow-100 dark:bg-yellow-900/30"
     },

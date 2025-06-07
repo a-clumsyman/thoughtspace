@@ -13,7 +13,7 @@ import Settings from './components/Settings';
 import PWAInstallPrompt from './components/PWAInstallPrompt';
 import OnboardingTips from './components/OnboardingTips';
 import ThoughtAnalytics from './components/ThoughtAnalytics';
-import { BookOpen, MessageCircle, Layers, Calendar, Settings as SettingsIcon } from 'lucide-react';
+import { BookOpen, MessageCircle, Layers, Calendar, Settings as SettingsIcon, BarChart3, Network } from 'lucide-react';
 
 // Main app content component
 const AppContent: React.FC = () => {
@@ -63,8 +63,8 @@ const AppContent: React.FC = () => {
   const navItems = [
     { id: 'stream', label: 'My Thoughts', icon: MessageCircle, description: 'Write and view your thoughts' },
     { id: 'clusters', label: 'Topics', icon: BookOpen, description: 'Thoughts grouped by topic' },
-    { id: 'analytics', label: 'Insights', icon: Layers, description: 'Your thought patterns, analytics & weekly recap' },
-    { id: 'hierarchy', label: 'Mind Map', icon: Layers, description: 'Advanced thought connections & organization' },
+    { id: 'analytics', label: 'Insights', icon: BarChart3, description: 'Your thought patterns, analytics & weekly recap' },
+    { id: 'hierarchy', label: 'Mind Map', icon: Network, description: 'Advanced thought connections & organization' },
     { id: 'settings', label: 'Settings', icon: SettingsIcon, description: 'App preferences' }
   ];
 
