@@ -1,0 +1,39 @@
+{
+  "name": "ThoughtSpace - Your Personal Thought Companion",
+  "short_name": "ThoughtSpace",
+  "description": "A private, ADHD-friendly app for capturing, organizing, and reflecting on your thoughts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "lifestyle", "health"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIgdmlld0JveD0iMCAwIDE0NCAxNDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNDQiIGhlaWdodD0iMTQ0IiByeD0iMjQiIGZpbGw9IiM0ZjQ2ZTUiLz4KPHN2ZyB4PSIzNiIgeT0iMzYiIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CjxwYXRoIGQ9Ik05IDEyaDYiLz4KPHA+YXRoIGQ9Ik05IDE2aDYiLz4KPHA+YXRoIGQ9Ik05IDhINiIvPgo8cGF0aCBkPSJtNiA0IDMgMy0zIDMiLz4KPHA+YXRoIGQ9Im04IDIwIDMtMy0zLTMiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+      "sizes": "144x144",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Thought",
+      "short_name": "New",
+      "description": "Quickly capture a new thought",
+      "url": "/?action=new",
+      "icons": []
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay", "minimal-ui"],
+  "edge_side_panel": {},
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+} 
